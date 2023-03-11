@@ -1,0 +1,62 @@
+
+.App {
+  background: #fff;
+}
+
+/* csv login background css */
+.wave-selector {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+.wave-selector svg {
+  position: relative;
+  display: block;
+  width: calc(137% + 4.3px);
+  height: 437px;
+}
+.wave-selector-top svg {
+  height: 455px;
+}
+
+.card-height {
+  height: 35rem !important;
+  margin-left: 30%;
+  margin-top: 20vh;
+  border-bottom: 30px solid white;
+}
+
+
+
+
+/* custum scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #e4e7eb;
+
+  border-radius: 100vh;
+  margin-top: 155px;
+  margin-bottom: 45px;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 30px;
+  border-radius: 100vh;
+  background-color: rgb(181, 175, 175);
+
+}
+
+
+
+
+
+
+
+
